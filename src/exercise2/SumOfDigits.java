@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class SumOfDigits {
 
     public static void main(String[] args) {
+      System.out.println("Eingeben Sie  eine Zahl zwischen 0 und 999");
         Scanner input = new Scanner(System.in);
 
         
