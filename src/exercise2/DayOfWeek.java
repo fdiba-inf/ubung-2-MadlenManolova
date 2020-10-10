@@ -5,59 +5,39 @@ import java.util.Scanner;
 public class DayOfWeek {
 
     public static void main(String[] args) {
+      System.out.println("Eingeben Sie  eine Zahl zwischen 1 und 7");
         Scanner input = new Scanner(System.in);
-
-        int a = input.nextInt();
-        
-        switch (a){
-          
-        case1:
-        
+        int day = input.nextInt();
+       if (day ==1){
         System.out.println ("Monday");
-
-        break;
-
-        case2:
+        }
+       else if (day ==2){
         
         System.out.println ("Tuesday");
-
-        break;
-
-        case3:
-        
+        }
+       else if (day ==3){
+       
         System.out.println ("Wednesday");
+        }
+       else if (day ==4){
 
-        break;
-
-        case4:
-        
         System.out.println ("Thursday");
+        }
+       else if (day ==5){
 
-        break;
-
-        case5:
-        
         System.out.println ("Friday");
+        }
+       else if (day ==6){
 
-        break;
-
-        case6:
-        
         System.out.println ("Saturday");
+        }
+       else if (day ==7){
 
-        break;
-
-        case7:
-        
         System.out.println ("Sunday");
-
-        break;
-
-        default:
-
+        }
+        else{
+        
         System.out.println("Invalid day");
-
-        break;
 
 
         }
