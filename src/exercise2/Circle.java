@@ -13,8 +13,8 @@ public class Circle {
      double A = Pi*r*r;
      double C = 2*Pi*r;
 
-     System.out.println ("Circumference" + C);
-     System.out.println ("Area" + A);
+     System.out.println ("Circumference: " + C);
+     System.out.println ("Area: " + A);
    }
           
 
