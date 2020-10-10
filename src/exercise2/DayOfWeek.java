@@ -9,35 +9,35 @@ public class DayOfWeek {
         Scanner input = new Scanner(System.in);
         int day = input.nextInt();
        if (day ==1){
-        System.out.println ("Monday");
+        System.out.println ("Day of week: Monday");
         }
        else if (day ==2){
         
-        System.out.println ("Tuesday");
+        System.out.println ("Day of week: Tuesday");
         }
        else if (day ==3){
        
-        System.out.println ("Wednesday");
+        System.out.println ("Day of week: Wednesday");
         }
        else if (day ==4){
 
-        System.out.println ("Thursday");
+        System.out.println ("Day of week: Thursday");
         }
        else if (day ==5){
 
-        System.out.println ("Friday");
+        System.out.println ("Day of week: Friday");
         }
        else if (day ==6){
 
-        System.out.println ("Saturday");
+        System.out.println ("Day of week: Saturday");
         }
        else if (day ==7){
 
-        System.out.println ("Sunday");
+        System.out.println ("Day of week: Sunday");
         }
         else{
         
-        System.out.println("Invalid day");
+        System.out.println("Day of week: Invalid day");
 
 
         }
